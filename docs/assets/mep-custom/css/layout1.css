@@ -1,0 +1,98 @@
+/* layout 1*/
+/* .kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link {
+    background-color: var(--mep-colors-state-primary);
+} */
+
+/* .kt-header-menu .kt-menu__nav  .kt-menu__item:hover:not(.kt-menu__item--here):not(.kt-menu__item--active)  .kt-menu__link, .kt-header-menu .kt-menu__nav  .kt-menu__item.kt-menu__item--hover:not(.kt-menu__item--here):not(.kt-menu__item--active)  .kt-menu__link {
+    background-color: var(--mep-color-state-primary);
+} */
+
+.kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link {
+    color: white !important;
+    background-color: var(--mep-color-state-primary) !important;
+}
+
+.kt-header-menu .kt-menu__nav > .kt-menu__item:hover:not(.kt-menu__item--here):not(.kt-menu__item--active) > .kt-menu__link, .kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--hover:not(.kt-menu__item--here):not(.kt-menu__item--active) > .kt-menu__link {
+    background-color: var(--mep-color-state-primary) !important;
+}
+
+/* User Profile badge (First character of Username)*/
+.kt-badge.kt-badge--unified-success {
+    color: var(--mep-color-base-label-3) !important;
+    background: rgba(var(--mep-color-state-success-rgb),0.1) !important;
+}
+
+.kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--user .kt-header__topbar-username {
+    display: flex;
+    align-self: center;
+    padding: 0 0.55rem 0 0;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--mep-color-base-label-3) !important;
+}
+
+/* Menu header text color (Active)*/
+.kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link .kt-menu__link-text {
+    color: white !important;
+}
+
+
+/* Menu header text color (Inactive) */
+.kt-header-menu .kt-menu__nav > .kt-menu__item:hover:not(.kt-menu__item--here):not(.kt-menu__item--active) > .kt-menu__link .kt-menu__link-text, .kt-header-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--hover:not(.kt-menu__item--here):not(.kt-menu__item--active) > .kt-menu__link .kt-menu__link-text {
+    color: var(--mep-color-base-label-3) !important;
+}
+
+/* Footer copyright */
+.kt-footer .kt-footer__bottom .kt-footer__logo .kt-footer__copyright {
+    font-size: 1rem !important;
+    font-family: var(--mep-light-font-family) !important;
+    font-weight: var(--mep-light-font-weight) !important;
+    font-style: var(--mep-light-font-style) !important;
+    color: var(--mep-color-base-label-3) !important;
+}
+
+.kt-footer .kt-footer__bottom .kt-footer__menu a {
+    font-size: 1rem !important;
+    font-family: var(--mep-light-font-family) !important;
+    font-weight: var(--mep-light-font-weight) !important;
+    font-style: var(--mep-light-font-style) !important;
+    color: var(--mep-color-base-label-3) !important;
+}
+
+/* Header menu font styles */
+.kt-header-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-text {
+    font-family: var(--mep-regular-font-family) !important;
+    font-weight: var(--mep-regular-font-weight) !important;
+    font-style: var(--mep-regular-font-style) !important;
+}
+
+.kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--user .kt-header__topbar-welcome {
+    font-family: var(--mep-regular-font-family) !important;
+    font-weight: var(--mep-regular-font-weight) !important;
+    font-style: var(--mep-regular-font-style) !important;
+    font-size: 1rem !important;
+}
+
+.kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--user .kt-header__topbar-username {
+    font-family: var(--mep-medium-font-family) !important;
+    font-weight: var(--mep-medium-font-weight) !important;
+    font-style: var(--mep-medium-font-style) !important;
+    font-size: 1rem !important;
+}
+
+.kt-badge.kt-badge--bold {
+    font-family: var(--mep-bold-font-family) !important;
+    font-weight: var(--mep-bold-font-weight) !important;
+    font-style: var(--mep-bold-font-style) !important;
+    font-size: 1.4rem !important;
+}
+
+/* Menu link text */
+.kt-menu__link-text{
+    color: var(--mep-color-base-label-3) !important;
+}
+
+/* merchant/ corporate name on top right corner */
+.kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--user .kt-header__topbar-username{
+    color: var(--mep-color-base-label-3) !important;
+}

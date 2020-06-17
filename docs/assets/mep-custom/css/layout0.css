@@ -1,0 +1,134 @@
+/* Layout 0 (Side menu)*/
+/* Dark Theme, Active Color*/
+
+.kt-aside-dark .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__heading, .kt-aside-dark .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__link {
+    background-color: rgba(var(--mep-color-base-shape-2-rgb),0.2) !important;
+}
+
+/* Dark Theme, Hover Color */
+.kt-aside-dark .kt-aside-menu .kt-menu__nav > .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__heading, .kt-aside-dark .kt-aside-menu .kt-menu__nav > .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__link {
+    background-color: rgba(var(--mep-color-base-shape-2-rgb),0.2) !important;
+}
+
+/* Light theme: Active Color */
+.kt-aside-light .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__heading, .kt-aside-light .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__link {
+    background-color: rgba(var(--mep-color-base-shape-2-rgb),0.2) !important;
+}
+
+/* Light theme: Hover Color */
+.kt-aside-light .kt-aside-menu .kt-menu__nav > .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__heading, .kt-aside-light .kt-aside-menu .kt-menu__nav > .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__link {
+    background-color: rgba(var(--mep-color-base-shape-2-rgb),0.2) !important;
+}
+
+/* Username (first letter)*/
+.kt-badge.kt-badge--unified-success {
+    color: var(--mep-color-state-success) !important;
+    background: rgba(var(--mep-color-state-success-rgb),0.2) !important;
+    font-size: 1.4rem !important;
+}
+
+/* Text color : selected Menu Item (Active)*/
+.kt-aside-dark .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__heading .kt-menu__link-text, .kt-aside-dark .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__link .kt-menu__link-text {
+    
+    color: var(--mep-color-base-label-0) !important;
+}
+/* Icon color : selected Menu item (Active)*/
+.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--active > .kt-menu__link .kt-menu__link-icon {
+    color: var(--mep-color-base-label-0) !important;
+}
+
+/* Text Color: Menu Item (Inactive)*/
+.kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-text {
+    color: var(--mep-color-base-label-4) !important;
+}
+
+/* dark theme */
+.kt-aside-dark .kt-aside-menu .kt-menu__nav > .kt-menu__section .kt-menu__section-text{
+    font-family: var(--mep-bold-font-family) !important;
+    font-weight: var(--mep-bold-font-weight) !important;
+    font-style: var(--mep-bold-font-style) !important;
+    color: var(--mep-color-base-label-4) !important;
+}
+
+.kt-aside-light .kt-aside-menu .kt-menu__nav>.kt-menu__section .kt-menu__section-icon, .kt-aside-light .kt-aside-menu .kt-menu__nav>.kt-menu__section .kt-menu__section-text{
+    font-family: var(--mep-bold-font-family) !important;
+    font-weight: var(--mep-bold-font-weight) !important;
+    font-style: var(--mep-bold-font-style) !important;
+    color: var(--mep-color-base-label-4) !important;
+}
+
+/* Icon Color: Menu Item (Inactive)*/
+.kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-icon {
+    color: var(--mep-color-base-label-1) !important;
+}
+
+.kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--user .kt-header__topbar-username {
+    color: var(--mep-color-base-label-2) !important;
+}
+
+/* Footer Copyright */
+.kt-footer .kt-footer__copyright {
+    display: flex;
+    margin: 0;
+    padding: 0 1.25rem 0 0;
+    justify-content: flex-start;
+    font-size: 1rem !important;
+    font-family: var(--mep-light-font-family) !important;
+    font-weight: var(--mep-light-font-weight) !important;
+    font-style: var(--mep-light-font-style) !important;
+    color: var(--mep-color-base-label-3) !important;
+}
+
+/* Footer Menu Links*/
+.kt-footer .kt-footer__menu .kt-footer__menu-link {
+    margin: 0 0 0 1.25rem;
+    padding: 0;
+    font-size: 1rem !important;
+    font-family: var(--mep-light-font-family) !important;
+    font-weight: var(--mep-light-font-weight) !important;
+    font-style: var(--mep-light-font-style) !important;
+    color: var(--mep-color-base-label-2) !important;
+}
+
+/* Override font for aside menu */
+.kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__heading .kt-menu__link-text, .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-text{
+    font-family: var(--mep-regular-font-family) !important;
+    font-weight: var(--mep-regular-font-weight) !important;
+    font-style: var(--mep-regular-font-style) !important;
+    font-size: 1rem !important;
+}
+
+/* User name (Upper right corner)*/
+.kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--user .kt-header__topbar-user .kt-header__topbar-welcome{
+    font-family: var(--mep-regular-font-family) !important;
+    font-weight: var(--mep-regular-font-weight) !important;
+    font-style: var(--mep-regular-font-style) !important;
+    font-size: 1rem !important;
+}
+
+.kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--user .kt-header__topbar-user .kt-header__topbar-username{
+    font-family: var(--mep-medium-font-family) !important;
+    font-weight: var(--mep-medium-font-weight) !important;
+    font-style: var(--mep-medium-font-style) !important;
+    font-size: 1rem !important;
+}
+
+.kt-header-base-light .kt-header .kt-header__topbar .kt-header__topbar-item.kt-header__topbar-item--user .kt-header__topbar-user .kt-badge.kt-badge--username {
+    font-family: var(--mep-bold-font-family) !important;
+    font-weight: var(--mep-bold-font-weight) !important;
+    font-style: var(--mep-bold-font-style) !important;
+}
+
+/* Statistics menu text */
+.kt-aside-dark .kt-aside-menu .kt-menu__nav > .kt-menu__section .kt-menu__section-text{
+    font-size: 1.1rem !important;
+}
+
+.kt-aside-light .kt-aside-menu .kt-menu__nav > .kt-menu__section .kt-menu__section-text{
+    font-size: 1.1rem !important;
+}
+
+/* box shadow on aside sidebar */
+.kt-aside-light .kt-aside {
+    box-shadow: 0px 0px 28px 0px rgba(var(--mep-color-base-shape-1-rgb), 0.5) !important;
+}

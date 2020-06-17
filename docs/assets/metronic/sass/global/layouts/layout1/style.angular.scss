@@ -1,0 +1,26 @@
+
+@import "../../../style.angular.scss";
+
+
+// 4: Layout config
+@import "config";
+@import "header/config";
+@import "brand/config";
+@import "aside/config";
+@import "footer/config";
+
+
+// 5: Layout includes
+@import "base/base";
+@import "header/header";
+@import "header/base-mobile";
+@import "header/menu";
+@import "header/topbar";
+@import "brand/brand";
+@import "aside/aside";
+@import "content/content";
+@import "footer/footer";
+
+// 6:  User defined custom styles includes
+@import "custom/example-1";
+@import "custom/example-2";

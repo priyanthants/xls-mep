@@ -1,0 +1,234 @@
+.invalid-feedback{
+    color : var(--mep-validationmessage-color,#fd397a) !important;
+}
+
+.kt-header {
+    background: var(--mep-layout-header-color,#ffffff) !important;
+}
+ 
+.kt-header--fixed.kt-header--minimize {
+    box-shadow: 0px 0px 40px 0px var(--mep-layout-header-color,#ffffff) !important;
+}
+ 
+.kt-footer{
+    background-color: var(--mep-layout-footer-color,#ffffff) !important;
+} 
+
+.kt-footer__bottom {
+    background-color: var(--mep-layout-footer-color,#ffffff) !important;
+}
+
+.kt-footer .kt-footer__bottom{
+    background-color: var(--mep-layout-footer-color,#ffffff) !important;
+}
+
+.kt-header-menu-wrapper{
+    background-color: var(--mep-layout-header-color,#ffffff) !important;
+}
+
+.kt-header .kt-header__bottom{
+    background-color: var(--mep-layout-header-color,#ffffff) !important;
+}
+
+.kt-header__bottom{
+    background-color: var(--mep-layout-header-color,#ffffff) !important;
+}
+
+.kt-brand-light .kt-aside__brand{
+    background-color: var(--mep-layout-brand-color,#ffffff) !important;
+}
+
+.kt-brand-light .kt-header-mobile{
+    background-color: var(--mep-layout-brand-color,#ffffff) !important;
+}
+
+.kt-header-mobile{
+    background-color: var(--mep-layout-mobile-submenu-color,#ffffff) !important;
+}
+
+.kt-footer__subscribe {
+    background-color: var(--mep-layout-footer-color,#ffffff) !important;
+
+}
+
+/* Ccampaign creation trigger step */
+.input-group-text{
+    display: flex;
+    align-items: center;
+    padding: 0.65rem 1rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #74788d;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #f7f8fa;
+    border: 1px solid rgba(var(--mep-color-base-shape-1-rgb),0.5) !important;
+    border-radius: 4px;
+}
+
+/* Campaign View Customization - Begin */
+.modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.25rem;
+    border-bottom: 1px solid rgba(var(--mep-color-base-shape-1-rgb),0.2) !important;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+/* Campaign View Customization - End */
+
+
+/* Dashboard page - KPI Title Text Color (First Line) */
+.kt-widget1 .kt-widget1__item .kt-widget1__info .kt-widget1__title {
+    color: var(--mep-color-base-label-2) !important;
+}
+
+/* Dashboard page - KPI Desc Text Color (Second Line) */
+.kt-widget1 .kt-widget1__item .kt-widget1__info .kt-widget1__desc {
+    font-size: 1rem;
+    font-weight: normal;
+    color: var(--mep-color-base-label-2) !important;
+}
+
+/* KPI Font Fixed Colors*/
+.mep-primary-fixed{
+    color: #0077ff !important;
+}
+
+.mep-success-fixed{
+    color: #34bfa3 !important;
+}
+
+.mep-warning-fixed{
+    color: #ffb822 !important;
+}
+
+.mep-danger-fixed{
+    color: #fd3995 !important;
+}
+
+.mep-info-fixed{
+    color: #36a3f7 !important;
+}
+
+.mep-orange-fixed{
+    color: orange !important;
+}
+
+.mep-yellow-fixed{
+    color: gold !important;
+}
+
+/* KPI Font Colors*/
+.mep-primary{
+    color: var(--mep-color-state-primary) !important;
+}
+
+.mep-success{
+    color: var(--mep-color-state-success) !important;
+}
+
+.mep-warning{
+    color: var(--mep-color-state-warning) !important;
+}
+
+.mep-danger{
+    color: var(--mep-color-state-danger) !important;
+}
+
+.mep-info{
+    color: var(--mep-color-state-info) !important;
+}
+
+
+/* dashboard table */
+.kt-widget1 .kt-widget1__item .kt-widget1__info .kt-widget1__title {
+    font-family: var(--mep-medium-font-family) !important;
+    font-weight: var(--mep-medium-font-weight) !important;
+    font-style: var(--mep-medium-font-style) !important;
+    font-size: 1.2rem !important;
+}
+
+.kt-widget1 .kt-widget1__item .kt-widget1__info .kt-widget1__desc {
+    font-family: var(--mep-regular-font-family) !important;
+    font-weight: var(--mep-regular-font-weight) !important;
+    font-style: var(--mep-regular-font-style) !important;
+    font-size: 1rem !important;
+}
+
+.kt-widget1 .kt-widget1__item .kt-widget1__number {
+    font-family: var(--mep-bold-font-family) !important;
+    font-weight: var(--mep-bold-font-weight) !important;
+    font-style: var(--mep-bold-font-style) !important;
+    font-size: 1.4rem !important;
+}
+
+/* MEP Fonts (Project can use this classes directly instead of using variables in there new pages) */
+.mep-font-regular {
+    font-family: var(--mep-regular-font-family) !important;
+    font-weight: var(--mep-regular-font-weight) !important;
+    font-style: var(--mep-regular-font-style) !important;
+}
+
+.mep-font-regular-italic {
+    font-family: var(--mep-regular-italic-font-family) !important;
+    font-weight: var(--mep-regular-italic-font-weight) !important;
+    font-style: var(--mep-regular-italic-font-style) !important;
+}
+
+.mep-font-medium {
+    font-family: var(--mep-medium-font-family) !important;
+    font-weight: var(--mep-medium-font-weight) !important;
+    font-style: var(--mep-medium-font-style) !important;
+}
+
+.mep-font-medium-italic {
+    font-family: var(--mep-medium-italic-font-family) !important;
+    font-weight: var(--mep-medium-italic-font-weight) !important;
+    font-style: var(--mep-medium-italic-font-style) !important;
+}
+
+.mep-font-bold {
+    font-family: var(--mep-bold-font-family) !important;
+    font-weight: var(--mep-bold-font-weight) !important;
+    font-style: var(--mep-bold-font-style) !important;
+}
+
+.mep-font-bold-italic {
+    font-family: var(--mep-bold-italic-font-family) !important;
+    font-weight: var(--mep-bold-italic-font-weight) !important;
+    font-style: var(--mep-bold-italic-font-style) !important;
+}
+
+.mep-font-black {
+    font-family: var(--mep-black-font-family) !important;
+    font-weight: var(--mep-black-font-weight) !important;
+    font-style: var(--mep-black-font-style) !important;
+}
+
+.mep-font-black-italic {
+    font-family: var(--mep-black-italic-font-family) !important;
+    font-weight: var(--mep-black-italic-font-weight) !important;
+    font-style: var(--mep-black-italic-font-style) !important;
+}
+
+.mep-font-light {
+    font-family: var(--mep-light-font-family) !important;
+    font-weight: var(--mep-light-font-weight) !important;
+    font-style: var(--mep-light-font-style) !important;
+}
+
+.mep-font-light-italic {
+    font-family: var(--mep-light-italic-font-family) !important;
+    font-weight: var(--mep-light-italic-font-weight) !important;
+    font-style: var(--mep-light-italic-font-style) !important;
+}
+
+/* Custom date picker */
+.mep-custome-datepicker{
+    visibility: hidden !important;
+}

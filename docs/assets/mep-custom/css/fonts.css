@@ -1,0 +1,60 @@
+.mep-font-regular{
+    font-family: var(--mep-font-regular-font-family) !important;
+    font-weight: var(--mep-font-regular-font-weight) !important;
+    font-style: var(--mep-font-regular-font-style) !important;
+}
+
+.mep-font-regular-italic{
+    font-family: var(--mep-font-regular-italic-font-family) !important;
+    font-weight: var(--mep-font-regular-italic-font-weight) !important;
+    font-style: var(--mep-font-regular-italic-font-style) !important;
+}
+
+.mep-font-medium{
+    font-family: var(--mep-font-medium-font-family) !important;
+    font-weight: var(--mep-font-medium-font-weight) !important;
+    font-style: var(--mep-font-medium-font-style) !important;
+}
+
+.mep-font-medium-italic{
+    font-family: var(--mep-font-medium-italic-font-family) !important;
+    font-weight: var(--mep-font-medium-italic-font-weight) !important;
+    font-style: var(--mep-font-medium-italic-font-style) !important;
+}
+
+.mep-font-bold{
+    font-family: var(--mep-font-bold-font-family) !important;
+    font-weight: var(--mep-font-bold-font-weight) !important;
+    font-style: var(--mep-font-bold-font-style) !important;
+}
+
+.mep-font-bold-italic{
+    font-family: var(--mep-font-bold-italic-font-family) !important;
+    font-weight: var(--mep-font-bold-italic-font-weight) !important;
+    font-style: var(--mep-font-bold-italic-font-style) !important;
+}
+
+.mep-font-black{
+    font-family: var(--mep-font-black-font-family) !important;
+    font-weight: var(--mep-font-black-font-weight) !important;
+    font-style: var(--mep-font-black-font-style) !important;
+}
+
+.mep-font-black-italic{
+    font-family: var(--mep-font-black-italic-font-family) !important;
+    font-weight: var(--mep-font-black-italic-font-weight) !important;
+    font-style: var(--mep-font-black-italic-font-style) !important;
+}
+
+.mep-font-light{
+    font-family: var(--mep-font-light-font-family) !important;
+    font-weight: var(--mep-font-light-font-weight) !important;
+    font-style: var(--mep-font-light-font-style) !important;
+}
+
+.mep-font-light-italic{
+    font-family: var(--mep-font-light-italic-font-family) !important;
+    font-weight: var(--mep-font-light-italic-font-weight) !important;
+    font-style: var(--mep-font-light-italic-font-style) !important;
+}
+
